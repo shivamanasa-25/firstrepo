@@ -40,7 +40,7 @@ public class Clean{
 		if(res=0)
 			System.out.println("WRONG INPUT");
 		else
-			System.out.println(result);
+			System.out.println(res);
 	}
 
 }
