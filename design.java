@@ -2,13 +2,13 @@ import java.util.*;
 public class Design {
 	static int x;
 	static int y;
-	static Scanner scan=new Scanner(System.in);
+	static Scanner sc=new Scanner(System.in);
 	public static void read()
 	{
 		System.out.println("Enter first operand");
-		x=scan.nextInt();
+		x=sc.nextInt();
 		System.out.println("Enter second operand");
-		y=scan.nextInt();
+		y=sc.nextInt();
 	}
 	public static void show(int value)
 	{
@@ -83,7 +83,7 @@ public class Design {
 	public static void main(String[] args) {
 		read();
 		System.out.println("Enter the Arithmetic operator");
-		char operator=(scan.next()).charAt(0);
+		char operator=(sc.next()).charAt(0);
 		check(operator);
 		
 	}
